@@ -1,0 +1,53 @@
+/* Progress.css */
+
+.flex-container-progress {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  gap: 10px; /* Add some gap between flex items */
+  height: calc(100vh - 60px);
+  padding: 20px;
+  background-color: #83C9E7; /* Background color for containers */
+}
+
+/* Upper container to hold goals */
+.upper-container {
+  display: flex;
+  flex: 1; /* Takes up 1 part of the container */
+}
+
+.goals {
+  background-color: #A8D9EE; /* Background color for containers */
+  padding: 20px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+/* Center the title */
+.goals-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Align the list items to the left */
+.goals ul {
+  list-style-type: disc; /* Optional: Change the list bullet style */
+  padding-left: 20px; /* Add some padding to the left for the bullets */
+}
+
+.goals li {
+  text-align: left;
+}
+
+.graph-container {
+  flex: 1; /* Takes up 1 part of the container */
+  width: 100%; /* Span across the full width of its container */
+  background-color: #A8D9EE; /* Background color for containers */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.graph-title {
+  text-align: center;
+  font-weight: bold;
+}
